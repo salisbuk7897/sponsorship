@@ -12,14 +12,14 @@ export default function SDS({sendDataToParent}) {
                 
             </div>
             <div class="">
-                <h1 class="text-2xl"> About Surgical Data Science</h1>
-                <p class="indent-4">
+                <h1 class="text-2xl font-sans"> About Surgical Data Science</h1>
+                <p class="indent-4 font-sans">
                     The SDS summer school aims to promote research and innovation on computer/data science tools of 
                     clinical value by providing multidisciplinary education on surgical data science. The school is 
                     therefore dedicated to educating clinicians and computer scientists on respective contexts, needs, 
                     tools and methodologies.
                 </p>
-                <p class="indent-4">
+                <p class="indent-4 font-sans">
                 We are witnessing the transformation of operating rooms into smart hubs of interconnected advanced technologies 
                 where multiple, highly specialized professionals must coordinate for the benefit of patients. Such high-stake 
                 sociotechnical process is generally highly effective but error prone. Surgical data science aims to improve the 
@@ -27,29 +27,29 @@ export default function SDS({sendDataToParent}) {
                 intelligence (AI) algorithms to provide timely assistance to caregivers. read more: <a  href='https://www.edu4sds.org/'>https://www.edu4sds.org/</a>
                 </p>
                 <br />
-                <h1 class="text-2xl"> What are the benefits of Attending</h1>
-                <ul>
-                    <li>
+                <h1 class="text-2xl font-sans"> What are the benefits of Attending</h1>
+                <ul class="font-sans">
+                    <li class="font-sans">
                         * Tight and effective collaboration between clinicians and computer scientists to 
                         learn from each other and finally develop the common language needed to team up and 
                         complement each other.
                     </li>
-                    <li>
+                    <li class="font-sans">
                         * Learn from the experts about using AI to improve Surgical procedures like endoscopy, 
                         laparascopy and robot assisted surgery.
                     </li>
-                    <li>
+                    <li class="font-sans">
                         * Work with sophisticated tools, in fully equiped, state of the art labs.
                     </li>
-                    <li>
+                    <li class="font-sans">
                         * Work on group projects
                     </li>
-                    <li>
+                    <li class="font-sans">
                         * Learn to develop safe 
                         and efficient AI system that assist caregivers, improve quality of intervention and teaching of future clinicians.
                     </li>
                 </ul>
-                <button class="bg-blue-300 float-right py-3 px-3 rounded-full" onClick={handleClick}>
+                <button class="bg-blue-300 float-right py-3 px-3 rounded-full font-sans" onClick={handleClick}>
                     Contact Me
                 </button>
             </div>

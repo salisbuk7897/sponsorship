@@ -20,8 +20,8 @@ export default function Welcome({ sendDataToParent }) {
             </div>
             
             <div class="">
-                <h1> Hi There,</h1>
-                <p class="indent-4">
+                <h1 class="font-sans"> Hi There,</h1>
+                <p class="indent-4 font-sans">
                     I am a final year student of Medicine and Surgery at Bayero University Kano (BUK), Nigeria, 
                     a self-taught software developer and one of the founders of BUKMEDS, 
                     a small group consisting of my classmates. 
@@ -30,20 +30,20 @@ export default function Welcome({ sendDataToParent }) {
                     I intend to focus on digital health and research after graduation. 
                     hence, my decision to apply for Surgical Data Science (SDS) summer school in Strasbourg, France.
                     </p>
-                <p class="indent-4">
+                <p class="indent-4 font-sans">
                     My application Got selected. To be able to attend this great school, I need about:
                 </p>
-                <p class="text-center text-5xl">
+                <p class="text-center text-5xl font-serif">
                     $2100
                 </p>
-                <p> 
+                <p class="font-sans"> 
                     to cover the cost of transportation, visa and accomodation.
                 </p>
-                <p class="indent-4"> The aim of setting up this website is to look for sponsorship. 
+                <p class="indent-4 font-sans"> The aim of setting up this website is to look for sponsorship. 
                     If you know any organisation or entity that can help me secure the funds,
                     Please do contact me using details on the "contact me" page. If not, Thank you for visiting!
                 </p>
-                <button class="bg-blue-300 float-right py-3 px-3 rounded-full" onClick={handleClick}>
+                <button class="bg-blue-300 float-right py-3 px-3 rounded-full font-sans" onClick={handleClick}>
                     $2100 for what?
                 </button>
             </div>
